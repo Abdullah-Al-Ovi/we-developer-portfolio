@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ div > ul.menu,ul.menu > li >a{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-right: 15px; */
+    margin-right: 50px;
+    text-decoration: none;
+    
+}
+
+div > ul.menu{
+    /* padding-top: 33px; */
+    align-items: center;
+}
+.mary{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+ul.menu > li > a.port-blog{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* justify-items: first baseline ; */
+padding-top: 19px;
+}
