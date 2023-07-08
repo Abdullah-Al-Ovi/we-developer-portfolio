@@ -1,12 +1,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+  
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    
 
+    
 }
  div > ul.menu,ul.menu > li >a{
     display: flex;
@@ -20,14 +21,15 @@ body{
 div > ul.menu{
     /* padding-top: 33px; */
     align-items: center;
+    
 }
 .mary{
     color: #181818;
-font-family: Open Sans;
 font-size: 45px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
+margin-left: 295px;
+
+
 }
 ul.menu > li > a.port-blog{
     color: var(--dark-02, #474747);
@@ -38,26 +40,97 @@ font-weight: 400;
 line-height: normal;
 /* justify-items: first baseline ; */
 padding-top: 19px;
+
+}
+div ul{
+    padding-right: 252px;
 }
 .header{
     background-color: #FFF8F3;
-
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+   
+ 
 }
+
+
 .banner{
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+ 
 }
 .banner-greeting{
 color: var(--dark-02, #474747);
-font-size: 90px;
+font-size: 45px;
 font-weight: bold;
-/* width: 177px;
-height: 61px;
-} */
+margin-bottom: 0;
+
+} 
 .banner-title{
 color: var(--dark-01, #181818);
 font-size: 95px;
 font-weight:bolder;
-/* width: 498px;
-height: 116px; */
+margin-top: 3px;
+margin-bottom: 3px;
+}
+.para{
+    margin-top: 0;
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+}
+/* main sectoin style */
+.about{
+  margin:130px 230px ;
+  
+padding:130px 130px 130px 130px;
+border-radius: 10px;
+background-color: #FFF8F3;
+}
+.des{
+    color: var(--dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+width: 827px;
+flex-direction: column;
+padding-left:200px;
+
+}
+.head{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    color: #757575;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+
+
+
+}
+.info-head{
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 0;
+    color: #181818;
+}
+
+.info-para{
+    margin-bottom: 0;
 }
