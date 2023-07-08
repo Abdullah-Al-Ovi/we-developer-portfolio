@@ -5,6 +5,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+
 }
  div > ul.menu,ul.menu > li >a{
     display: flex;
@@ -36,4 +38,26 @@ font-weight: 400;
 line-height: normal;
 /* justify-items: first baseline ; */
 padding-top: 19px;
+}
+.header{
+    background-color: #FFF8F3;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-greeting{
+color: var(--dark-02, #474747);
+font-size: 90px;
+font-weight: bold;
+/* width: 177px;
+height: 61px;
+} */
+.banner-title{
+color: var(--dark-01, #181818);
+font-size: 95px;
+font-weight:bolder;
+/* width: 498px;
+height: 116px; */
 }
